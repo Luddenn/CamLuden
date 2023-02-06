@@ -57,7 +57,7 @@ success="${cyan}[${white}√${cyan}] ${green}"
 
 
 
-version="1.5"
+version="Special edition Luden"
 
 cwd=`pwd`
 tunneler_dir="$HOME/.tunneler"
@@ -70,7 +70,7 @@ ${cyan}| |   / _' | '_ ' _ \| |_| |/ _' |/ __| |/ / _ \ '__|
 ${purple}| |__| (_| | | | | | |  _  | (_| | (__|   <  __/ |
 ${yellow} \____\__,_|_| |_| |_|_| |_|\__,_|\___|_|\_\___|_|
 ${red}                                            [v${version}]
-${blue}                                    [By Luden]
+${blue}                                    [By KasRoudra]
 "
 
 ngrok_help="
