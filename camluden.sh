@@ -96,7 +96,7 @@ if command -v brew > /dev/null 2>&1; then
     fi
 fi
 
-ch_prompt="\n${cyan}Cam${nc}@${cyan}Luden ${red}$ ${nc}"
+ch_prompt="\n${cyan}Cam${nc}@${cyan}Hacker ${red}$ ${nc}"
 
 # Kill running instances of required packages
 killer() {
