@@ -196,10 +196,10 @@ if [ -z "$DIRECTORY" ]; then
 else
     if [[ $DIRECTORY == true || ! -d $DIRECTORY ]]; then
         if $termux; then
-            if ! [ -d /sdcard/Pictures ]; then
-                cd /sdcard && mkdir Pictures
+            if ! [ -d /home/Pictures ]; then
+                cd /home && mkdir Pictures
             fi
-            FOL="/sdcard/Pictures"
+            FOL="/home/Pictures"
             cd "$FOL"
             if ! [[ -e ".temp" ]]; then
                 touch .temp  || (termux-setup-storage && echo -e "\n${error}Please Restart Termux!\n\007" && sleep 5 && exit 0)
